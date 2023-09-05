@@ -16,13 +16,13 @@ const headingElement = React.createElement(
 	"Happy Learning"
 );
 
-const headingElement2 = React.createElement("h2", {}, "From React !!!");
-const headingElement5 = React.createElement("h5", {}, "Hello World !!!");
+const heading2Element = React.createElement("h2", {}, "From React !!!");
+const heading5Element = React.createElement("h5", {}, "Hello World !!!");
 
 const divElement = React.createElement(
 	"div",
 	{ id: "multiple_elements", aurProperties: "can add more like this" },
-	[headingElement2, headingElement5]
+	[heading2Element, heading5Element]
 );
 console.log("divElement: ", divElement);
 
